@@ -40,8 +40,8 @@ The model supports a maximum sequence length of 512 tokens.
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-tokenizer = AutoTokenizer.from_pretrained("Tykea/khmer-text-sentiment-analysis-roberta")
-model = AutoModelForSequenceClassification.from_pretrained("Tykea/khmer-text-sentiment-analysis-roberta")
+tokenizer = AutoTokenizer.from_pretrained("tykea/khmer-text-sentiment-analysis-roberta")
+model = AutoModelForSequenceClassification.from_pretrained("tykea/khmer-text-sentiment-analysis-roberta")
 
 text = "អគុណCADT"
 inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
