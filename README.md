@@ -10,9 +10,12 @@ tags:
 - sentiment
 ---
 
-This is a fine-tuned version of the XLM-RoBERTa model for sentiment analysis. The model was trained to classify texts into 2 categories: [Positive, Negative]. It can process texts up to 512 tokens and performs well on khmer text inputs.
+**This is a fine-tuned version of the XLM-RoBERTa model for sentiment analysis to classify khmer texts into 2 categories; Postive and Negative.** 
+
+**It can process texts up to 512 tokens and performs well on khmer text inputs.**
+
 - **Task**: Sentiment analysis (binary classification).
-- **Languages Supported**: [List languages, e.g., English, Khmer, etc.].
+- **Languages Supported**: Khmer.
 - **Intended Use Cases**: 
   - Analyzing customer reviews.
   - Social media sentiment detection.
