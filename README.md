@@ -23,7 +23,7 @@ tags:
   - Performance may degrade on languages or domains not present in the training data.
   - Does not handle sarcasm or highly ambiguous inputs well.
   - 
-The model was evaluated on a test set of [Number] samples, achieving the following performance:
+The model was evaluated on a test set of 400 samples, achieving the following performance:
 
 - **Test Accuracy**: 83.25%
 - **Precision**: 83.55%
